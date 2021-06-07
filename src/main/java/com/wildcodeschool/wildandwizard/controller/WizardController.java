@@ -22,7 +22,6 @@ public class WizardController {
     public String getAll(Model model) {
 
         model.addAttribute("wizards", repository.findAll());
-
         return "wizards";
     }
 
